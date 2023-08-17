@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {useNavigate} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Jobs = () => {
   const navigate = useNavigate()
@@ -126,7 +127,7 @@ const Jobs = () => {
                 </div>
               </div>
               <div>
-                <a className="bg-purple-900 text-white font-medium px-4 py-2 rounded-md flex gap-1 items-center" href={jobs.url} target="_blank">
+                <Link className="bg-purple-900 text-white font-medium px-4 py-2 rounded-md flex gap-1 items-center" to={jobs.url} target="_blank">
                   Apply Now{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +143,7 @@ const Jobs = () => {
                       d="M13 7l5 5m0 0l-5 5m5-5H6"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const NewsCards = () => {
@@ -35,9 +36,9 @@ const NewsCards = () => {
                 className="w-full"
                 alt="India"
               />
-              <a href={article.url} target='_blank'>
+              <Link to={article.url} target='_blank'>
                 <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]"></div>
-              </a>
+              </Link>
             </div>
           </div>
           <div>
@@ -48,7 +49,7 @@ const NewsCards = () => {
             <p className="mb-6 text-neutral-500 dark:text-neutral-300">
               <small>
                 Published <u>{article.publishedAt}</u>&nbsp;  by &nbsp; 
-                <a href="#!">{article.author}</a>
+                <Link to="#!">{article.author}</Link>
               </small>
             </p>
             <p className="text-neutral-500 dark:text-neutral-300">

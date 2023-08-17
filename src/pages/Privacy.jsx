@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Privacy = () => {
   return (
@@ -207,7 +208,7 @@ const Privacy = () => {
                 </strong>
               </span>
             </span>
-            <a data-custom-class="link" href="#toc">
+            <Link data-custom-class="link" to="#toc">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   <strong>
@@ -215,7 +216,7 @@ const Privacy = () => {
                   </strong>
                 </span>
               </span>
-            </a>
+            </Link>
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
                 <strong>
@@ -240,13 +241,13 @@ const Privacy = () => {
                 Learn more about&nbsp;
               </span>
             </span>
-            <a data-custom-class="link" href="#personalinfo">
+            <Link data-custom-class="link" to="#personalinfo">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   personal information you disclose to us
                 </span>
               </span>
-            </a>
+            </Link>
             <span data-custom-class="body_text">.</span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
@@ -294,13 +295,13 @@ const Privacy = () => {
                 so. Learn more about&nbsp;
               </span>
             </span>
-            <a data-custom-class="link" href="#infouse">
+            <Link data-custom-class="link" to="#infouse">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   how we process your information
                 </span>
               </span>
-            </a>
+            </Link>
             <span data-custom-class="body_text">.</span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
@@ -319,13 +320,13 @@ const Privacy = () => {
                 third parties. Learn more about&nbsp;
               </span>
             </span>
-            <a data-custom-class="link" href="#whoshare">
+            <Link data-custom-class="link" to="#whoshare">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   when and with whom we share your personal information
                 </span>
               </span>
-            </a>
+            </Link>
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
                 .<bdt className="block-component" />
@@ -354,13 +355,13 @@ const Privacy = () => {
                 about&nbsp;
               </span>
             </span>
-            <a data-custom-class="link" href="#infosafe">
+            <Link data-custom-class="link" to="#infosafe">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   how we keep your information safe
                 </span>
               </span>
-            </a>
+            </Link>
             <span data-custom-class="body_text">.</span>
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
@@ -380,11 +381,11 @@ const Privacy = () => {
                 Learn more about&nbsp;
               </span>
             </span>
-            <a data-custom-class="link" href="#privacyrights">
+            <Link data-custom-class="link" to="#privacyrights">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">your privacy rights</span>
               </span>
-            </a>
+            </Link>
             <span data-custom-class="body_text">.</span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
@@ -398,9 +399,9 @@ const Privacy = () => {
                 <bdt className="block-component">submitting a&nbsp;</bdt>
               </span>
             </span>
-            <a
+            <Link
               data-custom-class="link"
-              href="/"
+              to="/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -409,7 +410,7 @@ const Privacy = () => {
                   data subject access request
                 </span>
               </span>
-            </a>
+            </Link>
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />, or by contacting us. We
@@ -431,13 +432,13 @@ const Privacy = () => {
                 information we collect?&nbsp;
               </span>
             </span>
-            <a data-custom-class="link" href="#toc">
+            <Link data-custom-class="link" to="#toc">
               <span style={{ fontSize: 15 }}>
                 <span data-custom-class="body_text">
                   Review the privacy notice in full
                 </span>
               </span>
-            </a>
+            </Link>
             <span style={{ fontSize: 15 }}>
               <span data-custom-class="body_text">.</span>
             </span>
@@ -464,29 +465,29 @@ const Privacy = () => {
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#infocollect">
+              <Link data-custom-class="link" to="#infocollect">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   1. WHAT INFORMATION DO WE COLLECT?
                 </span>
-              </a>
+              </Link>
             </span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#infouse">
+              <Link data-custom-class="link" to="#infouse">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   2. HOW DO WE PROCESS YOUR INFORMATION?
                   <bdt className="block-component" />
                 </span>
-              </a>
+              </Link>
             </span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
               <span style={{ color: "rgb(89, 89, 89)" }}>
-                <a data-custom-class="link" href="#whoshare">
+                <Link data-custom-class="link" to="#whoshare">
                   3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-                </a>
+                </Link>
               </span>
               <span data-custom-class="body_text">
                 <bdt className="block-component" />
@@ -504,11 +505,11 @@ const Privacy = () => {
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#cookies">
+              <Link data-custom-class="link" to="#cookies">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
                 </span>
-              </a>
+              </Link>
               <span style={{ color: "rgb(127, 127, 127)" }}>
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   <span data-custom-class="body_text">
@@ -532,11 +533,11 @@ const Privacy = () => {
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#inforetain">
+              <Link data-custom-class="link" to="#inforetain">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   5. HOW LONG DO WE KEEP YOUR INFORMATION?
                 </span>
-              </a>
+              </Link>
               <span style={{ color: "rgb(127, 127, 127)" }}>
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   <span data-custom-class="body_text">
@@ -552,11 +553,11 @@ const Privacy = () => {
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#infosafe">
+              <Link data-custom-class="link" to="#infosafe">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   6. HOW DO WE KEEP YOUR INFORMATION SAFE?
                 </span>
-              </a>
+              </Link>
               <span style={{ color: "rgb(127, 127, 127)" }}>
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   <span data-custom-class="body_text">
@@ -572,28 +573,28 @@ const Privacy = () => {
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
               <span style={{ color: "rgb(89, 89, 89)" }}>
-                <a data-custom-class="link" href="#privacyrights">
+                <Link data-custom-class="link" to="#privacyrights">
                   7. WHAT ARE YOUR PRIVACY RIGHTS?
-                </a>
+                </Link>
               </span>
             </span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#DNT">
+              <Link data-custom-class="link" to="#DNT">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   8. CONTROLS FOR DO-NOT-TRACK FEATURES
                 </span>
-              </a>
+              </Link>
             </span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#caresidents">
+              <Link data-custom-class="link" to="#caresidents">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   9. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                 </span>
-              </a>
+              </Link>
             </span>
             <bdt className="block-component">
               <span style={{ fontSize: 15 }}>
@@ -603,27 +604,27 @@ const Privacy = () => {
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <span style={{ fontSize: 15 }}>
-              <a data-custom-class="link" href="#policyupdates">
+              <Link data-custom-class="link" to="#policyupdates">
                 <span style={{ color: "rgb(89, 89, 89)" }}>
                   10. DO WE MAKE UPDATES TO THIS NOTICE?
                 </span>
-              </a>
+              </Link>
             </span>
           </div>
           <div style={{ lineHeight: "1.5" }}>
-            <a data-custom-class="link" href="#contact">
+            <Link data-custom-class="link" to="#contact">
               <span style={{ color: "rgb(89, 89, 89)", fontSize: 15 }}>
                 11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
               </span>
-            </a>
+            </Link>
           </div>
           <div style={{ lineHeight: "1.5" }}>
-            <a data-custom-class="link" href="#request">
+            <Link data-custom-class="link" to="#request">
               <span style={{ color: "rgb(89, 89, 89)" }}>
                 12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
                 FROM YOU?
               </span>
-            </a>
+            </Link>
           </div>
           <div style={{ lineHeight: "1.5" }}>
             <br />
@@ -2973,9 +2974,9 @@ const Privacy = () => {
                                                                   }}
                                                                 >
                                                                   <span data-custom-class="body_text">
-                                                                    <a
+                                                                    <Link
                                                                       data-custom-class="link"
-                                                                      href="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
+                                                                      to="https://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm"
                                                                       rel="noopener noreferrer"
                                                                       target="_blank"
                                                                     >
@@ -2990,7 +2991,7 @@ const Privacy = () => {
                                                                         protection
                                                                         authority
                                                                       </span>
-                                                                    </a>
+                                                                    </Link>
                                                                   </span>
                                                                 </span>
                                                               </span>
@@ -3000,8 +3001,8 @@ const Privacy = () => {
                                                         </span>
                                                       </span>
                                                     </span>
-                                                    <a
-                                                      href="https://ico.org.uk/make-a-complaint/data-protection-complaints/data-protection-complaints/"
+                                                    <Link
+                                                      to="https://ico.org.uk/make-a-complaint/data-protection-complaints/data-protection-complaints/"
                                                       rel="noopener noreferrer"
                                                       target="_blank"
                                                     >
@@ -3027,7 +3028,7 @@ const Privacy = () => {
                                                           </span>
                                                         </span>
                                                       </span>
-                                                    </a>
+                                                    </Link>
                                                     <span
                                                       style={{
                                                         fontSize: 15,
@@ -3102,9 +3103,9 @@ const Privacy = () => {
                                                                         fontSize: 15,
                                                                       }}
                                                                     >
-                                                                      <a
+                                                                      <Link
                                                                         data-custom-class="link"
-                                                                        href="https://www.edoeb.admin.ch/edoeb/en/home.html"
+                                                                        to="https://www.edoeb.admin.ch/edoeb/en/home.html"
                                                                         rel="noopener noreferrer"
                                                                         target="_blank"
                                                                       >
@@ -3114,7 +3115,7 @@ const Privacy = () => {
                                                                         and
                                                                         Information
                                                                         Commissioner
-                                                                      </a>
+                                                                      </Link>
                                                                     </span>
                                                                   </span>
                                                                 </span>
@@ -3185,9 +3186,9 @@ const Privacy = () => {
                                                         </span>
                                                       </span>
                                                     </span>
-                                                    <a
+                                                    <Link
                                                       data-custom-class="link"
-                                                      href="#contact"
+                                                      to="#contact"
                                                     >
                                                       <span
                                                         style={{
@@ -3210,7 +3211,7 @@ const Privacy = () => {
                                                           </span>
                                                         </span>
                                                       </span>
-                                                    </a>
+                                                    </Link>
                                                     <span
                                                       style={{
                                                         fontSize: 15,
@@ -3544,9 +3545,9 @@ const Privacy = () => {
                                                             }}
                                                           >
                                                             <span data-custom-class="body_text">
-                                                              <a
+                                                              <Link
                                                                 data-custom-class="link"
-                                                                href="http://www.aboutads.info/choices/"
+                                                                to="http://www.aboutads.info/choices/"
                                                                 rel="noopener noreferrer"
                                                                 target="_blank"
                                                               >
@@ -3560,7 +3561,7 @@ const Privacy = () => {
                                                                   advertising by
                                                                   advertisers
                                                                 </span>
-                                                              </a>
+                                                              </Link>
                                                             </span>
                                                           </span>{" "}
                                                           on our Services.{" "}
@@ -4770,15 +4771,15 @@ const Privacy = () => {
                                                                 fontSize: 15,
                                                               }}
                                                             >
-                                                              <a
+                                                              <Link
                                                                 data-custom-class="link"
-                                                                href="/"
+                                                                to="/"
                                                                 rel="noopener noreferrer"
                                                                 target="_blank"
                                                               >
                                                                 data subject
                                                                 access request
-                                                              </a>
+                                                              </Link>
                                                             </span>
                                                           </span>
                                                         </span>

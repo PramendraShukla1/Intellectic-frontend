@@ -1,7 +1,7 @@
 import About from "./pages/About";
 import CareerPage from "./pages/CareerPage";
 import HomePage from "./pages/HomePage";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import ResumeBuilder from "./pages/ResumeBuilder";
 import ServicesPage from "./pages/ServicesPage";
 import BusinessNews from "./pages/BusinessNews";
@@ -17,7 +17,9 @@ import CertificateVarification from "./pages/CertificateVarification"
 function App() {
   return (
     <div className="App">
-      <Routes>
+     
+      <Router>
+        <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/intellectic-career" element={<CareerPage />} />
         <Route path="/intellectic-about-us" element={<About />} />
@@ -59,7 +61,9 @@ function App() {
         />
 
         <Route path="/intellectic-certificate-varification" element={<CertificateVarification/>}/>
-      </Routes>
+        </Routes>
+      </Router>
+      
     </div>
   );
 }
