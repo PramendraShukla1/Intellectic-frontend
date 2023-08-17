@@ -1,0 +1,24 @@
+.backgroundImg{
+    background-image: url("../assets//background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.backgroundAboutImg{
+    background-image: url("../assets/aboutUs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.backgroundResumeImg{
+    background-image: url("../assets/resumeBuilding.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.backgroundNewsImg{
+    background-image: url("../assets/newsBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;   
+}
