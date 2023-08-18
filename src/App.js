@@ -60,7 +60,7 @@ function App() {
           element={<Privacy />}
         />
 
-        <Route path="/intellectic-certificate-varification" element={<CertificateVarification/>}/>
+        <Route path="/intellectic-certificate-verification" element={<CertificateVarification/>}/>
         </Routes>
       </Router>
       

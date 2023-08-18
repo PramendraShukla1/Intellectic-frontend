@@ -57,9 +57,9 @@ const NavbarAbout = () => {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <Link
-                to="/intellectic-certificate-varification"
+                to="/intellectic-certificate-verification"
                 className="text-sm font-semibold leading-6 text-gray-900"
-              >Certificate Varification</Link>
+              >Certificate Verification</Link>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -98,10 +98,10 @@ const NavbarAbout = () => {
               </div>
               <div className="py-6">
                     <Link
-                      to="/intellectic-certificate-varification"
+                      to="/intellectic-certificate-verification"
                       className="text-sm font-semibold leading-6 text-gray-900"
                     >
-                      Certificate Varification <span aria-hidden="true"></span>
+                      Certificate Verification <span aria-hidden="true"></span>
                     </Link>
                   </div>
             </div>

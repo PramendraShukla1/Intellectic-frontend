@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from "../../assets/logo.png"
@@ -54,10 +54,10 @@ const NavbarService = () => {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
        
         <a
-                href="/intellectic-certificate-varification"
+                href="/intellectic-certificate-verification"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
-                Certificate Varification <span aria-hidden="true"></span>
+                Certificate Verification <span aria-hidden="true"></span>
               </a>
    
     
@@ -99,10 +99,10 @@ const NavbarService = () => {
               </div>
               <div className="py-6">
               <a
-                href="/intellectic-certificate-varification"
+                href="/intellectic-certificate-verification"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
-                Certificate Varification <span aria-hidden="true"></span>
+                Certificate Verification <span aria-hidden="true"></span>
               </a>
      
    

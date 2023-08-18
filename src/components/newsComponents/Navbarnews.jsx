@@ -53,10 +53,10 @@ const Navbarnews = () => {
         
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <Link
-                to="/intellectic-certificate-varification"
+                to="/intellectic-certificate-verification"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
-                Certificate Varification <span aria-hidden="true"></span>
+                Certificate Verification <span aria-hidden="true"></span>
               </Link>
         
         </div>
@@ -97,10 +97,10 @@ const Navbarnews = () => {
               </div>
               <div className="py-6">
                     <Link
-                      to="/intellectic-certificate-varification"
+                      to="/intellectic-certificate-verification"
                       className="text-sm font-semibold leading-6 text-gray-900"
                     >
-                      Certificate Varification <span aria-hidden="true"></span>
+                      Certificate Verification <span aria-hidden="true"></span>
                     </Link>
                   </div>
             </div>

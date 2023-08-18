@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from "../../assets/logo.png"
@@ -55,10 +55,10 @@ const NavbarResume = () => {
           
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-                to="/intellectic-certificate-varification"
+                to="/intellectic-certificate-verification"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
-                Certificate Varification <span aria-hidden="true"></span>
+                Certificate Verification <span aria-hidden="true"></span>
               </Link>
           </div>
         </nav>
@@ -98,10 +98,10 @@ const NavbarResume = () => {
                 </div>
                 <div className="py-6">
                     <Link
-                      to="/intellectic-certificate-varification"
+                      to="/intellectic-certificate-verification"
                       className="text-sm font-semibold leading-6 text-gray-900"
                     >
-                      Certificate Varification <span aria-hidden="true"></span>
+                      Certificate Verification <span aria-hidden="true"></span>
                     </Link>
                   </div>
               </div>
